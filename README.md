@@ -61,9 +61,9 @@ This component is Tailwind CSS-friendly. If your project doesn't use Tailwind, y
 
 ## 📝 Example Use Cases
 
-* Tooltips with embedded documentation
-* Link previews in blogs or articles
-* Internal UI link previews in dashboards
+- Tooltips with embedded documentation
+- Link previews in blogs or articles
+- Internal UI link previews in dashboards
 
 ---
 
@@ -80,15 +80,23 @@ npm run build
 
 ---
 
-## 🤝 Contributing
+## 🤝 Contributing to Hover Preview Card
 
-Contributions are welcome and appreciated! To contribute:
+Thanks for your interest in contributing!
+
+### How to Contribute
 
 1. Fork the repository
-2. Create a new branch (`git checkout -b feature/my-feature`)
-3. Make your changes and commit them
-4. Push to your fork (`git push origin feature/my-feature`)
-5. Open a pull request with a clear description of the change
+2. Create a new branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -m 'Add new feature'`)
+4. Push to your branch (`git push origin feature/your-feature`)
+5. Open a pull request
+
+### Guidelines
+
+- Use Tailwind CSS or plain CSS for styling
+- Run `npm run build` before submitting a PR
+- Follow code formatting rules using Prettier
 
 ---
 
