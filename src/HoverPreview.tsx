@@ -10,8 +10,8 @@ export interface HoverPreviewProps {
 const HoverPreview: React.FC<HoverPreviewProps> = ({
   text,
   url,
-  textClassName = "underline italic text-lg",
-  cardClassName = "absolute top-full left-0 mt-2 p-4 bg-white shadow-lg rounded-lg border border-gray-200 w-[400px] h-[300px]",
+  textClassName = 'underline italic text-lg',
+  cardClassName = 'absolute top-full left-0 mt-2 p-4 bg-white shadow-lg rounded-lg border border-gray-200 w-[400px] h-[300px]',
 }) => {
   const [isHovered, setIsHovered] = useState(false);
 
@@ -21,7 +21,12 @@ const HoverPreview: React.FC<HoverPreviewProps> = ({
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <a href={url} target="_blank" rel="noopener noreferrer" className={textClassName}>
+      <a
+        href={url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={textClassName}
+      >
         {text}
       </a>
       {isHovered && (
