@@ -20,7 +20,7 @@
     "tailwind"
   ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "description": "",
   "peerDependencies": {
     "react": "^19.1.0",
