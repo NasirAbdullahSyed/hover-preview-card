@@ -1,0 +1,28 @@
+# Don't include test files
+__tests__/
+*.test.ts
+*.test.tsx
+
+# Ignore build tools and configs
+*.config.js
+*.config.ts
+jest.*
+tsconfig.*.json
+.vscode/
+coverage/
+dist/
+.gitignore
+.prettierrc
+.eslintrc
+.npmrc
+CODEOWNERS
+LICENSE.md
+CONTRIBUTING.md
+
+# GitHub metadata
+.github/
+
+# Don't include the README or LICENSE if you want them in
+# If you *do* want them in the package, remove these two lines:
+# README.md
+# LICENSE
