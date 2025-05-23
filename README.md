@@ -33,8 +33,6 @@ export default function Example() {
     <HoverPreview
       text="Visit Tailwind"
       url="https://tailwindcss.com/"
-      textClassName="text-blue-600 underline"
-      cardClassName="w-[500px] h-[400px] bg-white border shadow"
     />
   );
 }
