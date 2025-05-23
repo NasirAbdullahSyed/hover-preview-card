@@ -1,6 +1,6 @@
 {
   "name": "hover-preview-card",
-  "version": "1.1.11",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -21,9 +21,9 @@
     "react",
     "tailwind"
   ],
-  "author": "",
+  "author": "Syed Abdullah Nasir",
   "license": "MIT",
-  "description": "",
+  "description": "A component used to preview a live url associated with some text",
   "peerDependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
@@ -47,5 +47,13 @@
   },
   "dependencies": {
     "hover-preview-card": "file:hover-preview-card-1.1.5.tgz"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NasirAbdullahSyed/hover-preview-card.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NasirAbdullahSyed/hover-preview-card/issues"
+  },
+  "homepage": "https://github.com/NasirAbdullahSyed/hover-preview-card#readme"
 }
