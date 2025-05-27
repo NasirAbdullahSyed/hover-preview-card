@@ -45,9 +45,6 @@
     "tsup": "^8.5.0",
     "typescript": "^5.8.3"
   },
-  "dependencies": {
-    "hover-preview-card": "file:hover-preview-card-1.1.5.tgz"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NasirAbdullahSyed/hover-preview-card.git"
