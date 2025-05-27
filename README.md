@@ -48,6 +48,8 @@ export default function Example() {
 | `url`           | `string` | —                                                                                                              | The URL to be shown inside the iframe. |
 | `textClassName` | `string` | `"underline italic text-lg"`                                                                                   | Class for styling the trigger text.    |
 | `cardClassName` | `string` | `"absolute top-full left-0 mt-2 p-4 bg-white shadow-lg rounded-lg border border-gray-200 w-[400px] h-[300px]"` | Class for styling the preview card.    |
+| `showWebsiteName` | `boolean` | `true` | Show or hide the website name for thr URL. |
+| `showControls` | `boolean` | `true` | Show or hide copy url and maximize controls |
 
 ---
 
