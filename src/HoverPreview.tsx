@@ -112,7 +112,7 @@ const HoverPreview: React.FC<HoverPreviewProps> = ({
             className="w-full h-full border-0 rounded-lg"
             title="URL Preview"
             onLoad={() => setIsLoading(false)}
-            sandbox='allow-scripts'
+            sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-modals"
           />
           {isLoading && (
             <div className="absolute inset-0 flex items-center justify-center bg-white/50 backdrop-blur-sm rounded-lg">
